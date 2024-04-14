@@ -15,7 +15,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp C &kp LG(R) &kp M &kp D &kp KP_ENTER>;
+                <&kp LG(R) &kp C &kp M &kp D &kp KP_ENTER>;
 
             label = "CMD";
         };
