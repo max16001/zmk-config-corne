@@ -35,7 +35,7 @@
 
             bindings = <
 &kp UNDER       &kp F1    &kp F2  &kp F3    &kp F4    &kp F5       &kp F6     &kp F7    &kp F8    &kp F9    &kp F10   &mt F12 F11
-&mt LCTRL PLUS  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &trans
+&mt LCTRL PLUS  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &mt RCTRL MINUS
 &kp LSHFT       &trans    &trans  &trans    &trans    &trans       &trans     &trans    &trans    &trans    &trans    &trans
                                   &kp LGUI  &trans    &kp SPACE    &kp RET    &trans    &kp RALT
             >;
