@@ -9,6 +9,18 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    macros {
+        CMD: CMD {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp C &kp LG(R) &kp M &kp D &kp KP_ENTER>;
+
+            label = "CMD";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
