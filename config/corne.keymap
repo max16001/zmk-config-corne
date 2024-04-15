@@ -18,7 +18,7 @@
                 <&kp LG(R)>,
                 <&macro_tap>,
                 <&kp C &kp M &kp D>,
-                <&macro_release>,
+                <&macro_press>,
                 <&kp KP_ENTER>;
 
             label = "CMD";
