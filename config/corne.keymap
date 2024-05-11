@@ -14,12 +14,7 @@
         CMD: CMD {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LG(R)>,
-                <&macro_press>,
-                <&kp C &kp M &kp D>;
-
+            bindings = <&kp LG(R) &kp C &kp M &kp D &kp ENTER>;
             label = "CMD";
         };
     };
