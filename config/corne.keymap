@@ -94,10 +94,10 @@
 
         adjust_layer {
             bindings = <
-&sys_reset  &bootloader   &none         &none              &none             &none                &none              &none             &none         &none         &bootloader   &sys_reset
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3      &bt BT_SEL 4         &bt BT_SEL 4       &bt BT_SEL 3      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
-&soft_off   &none         &none         &ext_power EP_TOG  &ext_power EP_ON  &ext_power EP_OFF    &ext_power EP_OFF  &ext_power EP_ON  &none         &none         &none         &soft_off
-                                        &trans             &none             &trans               &trans             &none             &trans
+&sys_reset  &bootloader   &none         &none         &none         &none                &none              &none         &none         &none         &bootloader   &sys_reset
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &bt BT_SEL 4       &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
+&soft_off   &none         &none         &none         &none         &ext_power EP_OFF    &ext_power EP_OFF  &none         &none         &none         &none         &soft_off
+                                        &trans        &none         &trans               &trans             &none         &trans
             >;
         };
     };
