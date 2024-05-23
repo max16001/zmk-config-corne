@@ -29,7 +29,7 @@
 
         cmd {
             bindings = <&CMD>;
-            key-positions = <10 11>;
+            key-positions = <6 8>;
         };
     };
 
