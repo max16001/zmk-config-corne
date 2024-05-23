@@ -16,7 +16,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp LG(R)>,
-                <&macro_wait_time 200>,
+                <&macro_wait_time 100>,
                 <&kp C &kp M &kp D &kp ENTER>;
 
             label = "CMD";
