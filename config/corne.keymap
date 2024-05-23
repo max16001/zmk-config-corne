@@ -17,7 +17,6 @@
             bindings =
                 <&kp LG(R)>,
                 <&macro_wait_time 200>,
-                <&macro_press>,
                 <&kp C &kp M &kp D &kp ENTER>;
 
             label = "CMD";
