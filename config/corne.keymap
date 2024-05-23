@@ -16,11 +16,10 @@
             #binding-cells = <0>;
             bindings =
                 <&kp LG(R)>,
-                <&macro_pause_for_release>,
+                <&macro_wait_time 200>,
                 <&kp C &kp M &kp D &kp ENTER>;
 
             label = "CMD";
-            wait-ms = <300>;
         };
     };
 
