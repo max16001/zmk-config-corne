@@ -47,7 +47,7 @@
             key-positions = <6 8>;
         };
 
-        colon {
+        comma {
             bindings = <&kp LS(FSLH)>;
             key-positions = <6 18>;
         };
@@ -55,6 +55,16 @@
         dot {
             bindings = <&kp FSLH>;
             key-positions = <7 19>;
+        };
+
+        colon {
+            bindings = <&colon>;
+            key-positions = <8 20>;
+        };
+
+        semicolon {
+            bindings = <&semicolon>;
+            key-positions = <9 21>;
         };
     };
 
