@@ -46,6 +46,16 @@
             bindings = <&CMD>;
             key-positions = <6 8>;
         };
+
+        colon {
+            bindings = <&kp LS(FSLH)>;
+            key-positions = <6 18>;
+        };
+
+        dot {
+            bindings = <&kp FSLH>;
+            key-positions = <7 19>;
+        };
     };
 
     behaviors {
