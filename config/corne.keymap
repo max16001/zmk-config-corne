@@ -34,7 +34,7 @@
         semicolon: semicolon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LSHFT) &kp &kp>;
+            bindings = <&kp LC(LSHFT) &kp SEMI &kp LC(LSHIFT)>;
             label = "SEMICOLON";
         };
     };
