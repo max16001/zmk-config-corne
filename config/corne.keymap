@@ -23,6 +23,20 @@
 
             label = "CMD";
         };
+
+        colon: colon {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LSHFT) &kp LS(SEMI) &kp LC(LSHFT)>;
+            label = "COLON";
+        };
+
+        semicolon: semicolon {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LSHFT) &kp &kp>;
+            label = "SEMICOLON";
+        };
     };
 
     combos {
