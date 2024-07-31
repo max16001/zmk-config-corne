@@ -71,7 +71,7 @@
         };
 
         colon {
-            bindings = <&comma>;
+            bindings = <&colon>;
             key-positions = <8 20>;
         };
 
