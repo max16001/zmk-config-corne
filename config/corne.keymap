@@ -26,7 +26,7 @@
         colon: colon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LSHFT) &kp LS(SEMI) &kp LC(LSHFT) &kp SPACE>;
+            bindings = <&kp LC(LSHFT) &kp LS(SEMI) &kp LC(LSHFT) &kp SPACE &sk LSHFT>;
             label = "COLON";
         };
 
