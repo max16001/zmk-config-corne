@@ -26,21 +26,21 @@
         colon: colon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LSHFT) &kp LS(SEMI) &kp LC(LSHFT) &kp SPACE &Sticky_Shift LSHFT>;
+            bindings = <&kp LC(LSHFT) &kp LS(SEMI) &kp LC(LSHFT) &kp SPACE>;
             label = "COLON";
         };
 
         semicolon: semicolon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LSHFT) &kp SEMI &kp LC(LSHIFT) &kp SPACE &Sticky_Shift LSHFT>;
+            bindings = <&kp LC(LSHFT) &kp SEMI &kp LC(LSHIFT) &kp SPACE>;
             label = "SEMICOLON";
         };
 
         comma: comma {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(SLASH) &kp SPACE &Sticky_Shift LSHFT>;
+            bindings = <&kp LS(SLASH) &kp SPACE>;
             label = "COMMA";
         };
 
