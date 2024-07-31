@@ -26,14 +26,14 @@
         colon: colon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LSHFT) &kp LS(SEMI) &kp LC(LSHFT)>;
+            bindings = <&kp LC(LSHFT) &kp LS(SEMI) &kp LC(LSHFT) &kp SPACE>;
             label = "COLON";
         };
 
         semicolon: semicolon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LSHFT) &kp SEMI &kp LC(LSHIFT)>;
+            bindings = <&kp LC(LSHFT) &kp SEMI &kp LC(LSHIFT) &kp SPACE>;
             label = "SEMICOLON";
         };
     };
@@ -88,6 +88,7 @@
 
         Base {
             display-name = "Base";
+
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -104,6 +105,7 @@
 
         Symbols {
             display-name = "Symbol";
+
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -120,6 +122,7 @@
 
         Numlock {
             display-name = "Num";
+
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
