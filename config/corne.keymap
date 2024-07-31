@@ -33,21 +33,21 @@
         semicolon: semicolon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LSHFT) &kp SEMI &kp LC(LSHIFT) &kp SPACE &caps_word>;
+            bindings = <&kp LC(LSHFT) &kp SEMI &kp LC(LSHIFT) &kp SPACE>;
             label = "SEMICOLON";
         };
 
         comma: comma {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(SLASH) &kp SPACE &caps_word>;
+            bindings = <&kp LS(SLASH) &kp SPACE>;
             label = "COMMA";
         };
 
         dot: dot {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp SLASH &kp SPACE &caps_word>;
+            bindings = <&kp SLASH &kp SPACE>;
             label = "DOT";
         };
     };
@@ -102,7 +102,7 @@
             bindings = <&kp>;
             #binding-cells = <1>;
             lazy;
-            release-after-ms = <100>;
+            release-after-ms = <0>;
         };
     };
 
