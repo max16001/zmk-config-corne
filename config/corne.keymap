@@ -36,6 +36,20 @@
             bindings = <&kp LC(LSHFT) &kp SEMI &kp LC(LSHIFT) &kp SPACE>;
             label = "SEMICOLON";
         };
+
+        comma: comma {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(SLASH) &kp SPACE>;
+            label = "COMMA";
+        };
+
+        dot: dot {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SLASH &kp SPACE>;
+            label = "DOT";
+        };
     };
 
     combos {
@@ -47,17 +61,17 @@
         };
 
         comma {
-            bindings = <&kp LS(FSLH)>;
+            bindings = <&comma>;
             key-positions = <6 18>;
         };
 
         dot {
-            bindings = <&kp FSLH>;
+            bindings = <&dot>;
             key-positions = <7 19>;
         };
 
         colon {
-            bindings = <&colon>;
+            bindings = <&comma>;
             key-positions = <8 20>;
         };
 
